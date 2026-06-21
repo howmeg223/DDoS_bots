@@ -9,7 +9,7 @@ We find from the scapy documentation, an empty UDP packet is 28 bytes.
 
 Standard Ethernet MTU: 1500 bytes
 IP header: 20 bytes
-UDP header: 8bytes
+UDP header: 8 bytes
 
 so our payload to fit in a single UDP packet without IP fragmentation has to be:
 1500 - 28 = 1472 bytes
