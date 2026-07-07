@@ -95,12 +95,19 @@ scripts/reflection/dns_amplification.py -> DNS amplification -> using UDP / DNS 
 Project Structure:
 
 ├── README.md
+
 ├── docs/
+
 │   ├── lab-setup.md           # Full VM and network setup guide
+
 │   └── theory.md              # Attack theory and protocol mechanics 
+
 ├── scripts/
+
 │   ├── direct/                 # Direct attack scripts
+
 │   └── reflection/             # Reflection/amplification attack scripts
+
 └── results/                    # Packet captures, observations, and findings
 
 
