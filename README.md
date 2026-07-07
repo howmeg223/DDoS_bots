@@ -98,7 +98,7 @@ Project Structure:
 
 ├── docs/
 
-│   ├── lab-setup.md           # Full VM and network setup guide
+│   ├── lab_setup.md           # Full VM and network setup guide
 
 │   └── theory.md              # Attack theory and protocol mechanics 
 
