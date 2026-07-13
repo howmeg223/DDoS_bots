@@ -43,7 +43,7 @@ Creating the Base VM:
 Create the Isolated Network:
 1. In VMware Workstation Pro, go to Edit, then Vitual Network Editor
 2. Change Settings (you may need to get administrator access for windows)
-3. Click Add Network and choose unused VMnet (VMnet2)
+3. Click Add Network and choose VMnet2
 4. Set the type to Host Only (this keeps all traffic between the VMs and the host machine, with no internet access)
 5. Note the assigned subnet (for this project we have 192.168.168.0/24)
 6. Click Apply, then OK
